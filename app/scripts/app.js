@@ -1,5 +1,3 @@
-'use strict';
-
 /**
  * @ngdoc overview
  * @name curlGApp
@@ -15,6 +13,7 @@ angular
     'ngResource',
     'ngRoute',
     'ngSanitize',
+    'ui.bootstrap',
     'ngTouch'
   ])
   .config(function ($routeProvider) {
